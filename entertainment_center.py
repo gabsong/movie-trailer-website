@@ -3,6 +3,9 @@
 import fresh_tomatoes
 import media
 
+# The instances of class Movie below store all the relevant movie properties
+# as defined in media.py
+
 toy_story = media.Movie("Toy Story",
                         "81 min",
                         "1995",
@@ -75,4 +78,5 @@ the_departed = media.Movie("The Departed",
                            "http://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
                            "https://youtu.be/auYbpnEwBBg")
 
+# The array movies stores the all the movie objects created above.
 movies = [toy_story, avatar, inception, breakfast_at_tiffanys, great_expectations, lovers_concerto, interstellar, leon_the_professional, the_departed]
