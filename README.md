@@ -9,7 +9,7 @@ Generates a static HTML site with trailers from my favorite movies.
 fresh_tomatoes.py is the work of Kunal Chawla, computer science instructor
 at Udacity.
 
-Visit udacity.com and find the course **Programming Foundations with Python**.
+Visit the course **Programming Foundations with Python** on http://www.udacity.com.
 
 ## Install
 

@@ -43,7 +43,7 @@ great_expectations = media.Movie("Great Expectations",
                                  "http://upload.wikimedia.org/wikipedia/en/5/53/Great_expectations_poster.jpg",
                                  "https://youtu.be/6bq8BsIZejE")
 
-lovers_concerto = media.Movie("연애소설 (Lover's Concerto)",
+lovers_concerto = media.Movie("Lover's Concerto",
                               "106 min",
                               "2002",
                               "Han Lee",
