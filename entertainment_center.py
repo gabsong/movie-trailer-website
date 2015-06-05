@@ -1,6 +1,5 @@
 # coding=utf-8
 
-import fresh_tomatoes
 import media
 
 # The instances of class Movie below store all the relevant movie properties

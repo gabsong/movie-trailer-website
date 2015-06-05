@@ -49,7 +49,6 @@ class Movie(Video):
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-
     def show_trailer(self):
         """show_trailer: opens and plays a trailer link in the web browser.
 
@@ -82,7 +81,6 @@ class TvShow(Video):
         self.episode = tv_episode
         self.tv_station = tv_station
         self.local_listing_url = local_listing
-
 
     def get_local_listing(self):
         """get_local_listing: opens a local listing link in the web browser.
