@@ -18,22 +18,22 @@ modern web browser
 - Internet connection (needed to load Bootstrap 3.x and jQuery 1.x)
 
 ### Files
-- media.py
-  - Defines the structure of the parent class Video and child classes Movie and
-  TvShow, with all of its attributes. Add attributes class attributes here.
+`media.py`
+- Defines the structure of the parent class Video and child classes Movie and
+TvShow, with all of its attributes. Add attributes class attributes here.
 
-- entertainment_center.py
-  - Contains instances of the class Movie, with hardcoded movie objects and all
-  of its relevant information, including poster image url and YouTube trailer
-  url. Add additional movies here.
+`entertainment_center.py`
+- Contains instances of the class Movie, with hardcoded movie objects and all
+of its relevant information, including poster image url and YouTube trailer
+url. Add additional movies here.
 
-- fresh_tomatoes.py
-  - Contains methods for creating the movie trailer site, including the HTML
-  and CSS boilerplate. Modify site structure or style elements here.
+`fresh_tomatoes.py`
+- Contains methods for creating the movie trailer site, including the HTML
+and CSS boilerplate. Modify site structure or style elements here.
 
-- test.py
-  - Abstraction of the script that executes the static HTML site generator in
-  fresh_tomatoes with the movies in entertainment_center as input.
+`test.py`
+- Abstraction of the script that executes the static HTML site generator in
+fresh_tomatoes with the movies in entertainment_center as input.
 
 ### Running the program
 To run the project execute:
