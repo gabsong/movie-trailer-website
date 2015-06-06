@@ -5,7 +5,8 @@ class Video():
     """Video: initializes media of type video.
 
     This is a parent class to Movie and TvShow.
-      The __init__ method takes the most basic parameters that describe a video.
+      The __init__ method takes the most basic parameters that describe a
+      video.
 
     Args:
       title (str): The title of the video.
@@ -75,7 +76,8 @@ class TvShow(Video):
 
     """
 
-    def __init__(self, tv_title, duration, season, tv_episode, tv_station, local_listing):
+    def __init__(self, tv_title, duration, season, tv_episode, tv_station,
+                 local_listing):
         Video.__init__(self, tv_title, duration)
         self.season = season
         self.episode = tv_episode
